@@ -1,0 +1,4 @@
+# arm64 or aarch64
+
+sudo docker buildx create --use
+sudo docker buildx build  --platform=linux/arm64 -t riko20xx/flask-app . --push
